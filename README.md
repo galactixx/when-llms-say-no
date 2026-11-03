@@ -1,6 +1,7 @@
 # When LLMs Say No
 
-Empirical audit of prompt-based authorship verification (AV) on the CAVE datasets and a randomly stratified sample from the Cross-News article-vs-article dataset. Tests whether LLM prompting methods are biased toward misclassifying same-author pairs that are semantically distant in content.
+Official code for the EMNLP 2026 paper "When LLMs Say No: Diagnosing and Mitigating Conservative Bias in Authorship Verification."
+The paper can be found at the ACL Anthology site here: https://aclanthology.org/2026.emnlp-main.1477/.
 
 ## What it does
 
