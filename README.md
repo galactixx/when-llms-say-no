@@ -1,7 +1,8 @@
 # When LLMs Say No
 
-Official code for the EMNLP 2026 paper "When LLMs Say No: Diagnosing and Mitigating Conservative Bias in Authorship Verification."
-The paper can be found at the ACL Anthology site here: https://aclanthology.org/2026.emnlp-main.1477/.
+Official code for the EMNLP 2026 Main Conference paper, "[When LLMs Say No: Diagnosing and Mitigating Conservative Bias in Authorship Verification](https://aclanthology.org/2026.emnlp-main.1477/)."
+
+Nicholas Wlezien and Rakesh M. Verma (University of Houston). EMNLP 2026 Main Conference, pp. 33771–33788, Association for Computational Linguistics. DOI: [10.18653/2026.emnlp-main.1477](https://doi.org/10.18653/2026.emnlp-main.1477).
 
 ## What it does
 
