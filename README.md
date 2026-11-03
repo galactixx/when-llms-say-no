@@ -146,7 +146,7 @@ CUDA_VISIBLE_DEVICES=0 nohup python -m src.evaluation.main \
 
 ## Citation
 
-```
+```bibtex
 @inproceedings{wlezien-verma-2026-llms,
     title = "When {LLM}s Say No: Diagnosing and Mitigating Conservative Bias in Authorship Verification",
     author = "Wlezien, Nicholas  and
