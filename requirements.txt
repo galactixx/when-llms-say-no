@@ -1,0 +1,28 @@
+# Core
+PyYAML==6.0.3
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+
+# JSON repair fallback for CAVE-style outputs
+json-repair==0.59.10
+
+# Semantic analysis
+sentence-transformers==5.5.0
+scikit-learn==1.7.2
+statsmodels==0.14.6
+tqdm==4.67.3
+
+# Parquet engine for the Table 5 semantic-distance cache
+pyarrow>=21.0.0
+
+# Plotting
+matplotlib>=3.7.0
+
+# Development
+pytest==9.0.3
+black==26.3.1
+isort==8.0.1
+
+# vLLM backend
+vllm==0.21.0
