@@ -143,3 +143,26 @@ CUDA_VISIBLE_DEVICES=0 nohup python -m src.evaluation.main \
   --output-dir outputs/mistral24b \
   > run_mistral24b.log 2>&1 &
 ```
+
+## Citation
+
+```
+@inproceedings{wlezien-verma-2026-llms,
+    title = "When {LLM}s Say No: Diagnosing and Mitigating Conservative Bias in Authorship Verification",
+    author = "Wlezien, Nicholas  and
+      Verma, Rakesh M",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.1477/",
+    doi = "10.18653/2026.emnlp-main.1477",
+    pages = "33771--33788",
+    ISBN = "979-8-89176-459-0"
+}
+```
