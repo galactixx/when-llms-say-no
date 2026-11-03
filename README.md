@@ -34,15 +34,7 @@ src/
   evaluation/  # experiment runner, data, inference, prompts, and parsing
   analysis/    # summaries, significance tests, and semantic analysis
   graphs/      # the paper's figures
-  tables/      # the paper's numbered tables (CSV + paste-ready LaTeX)
   shared/      # constants, models, metrics, output, and JSONL I/O
-```
-
-Generated artefacts live outside `src/`:
-
-```text
-outputs/       # per-model results.jsonl, plus tables/ (CSV and .tex)
-plots/         # figure PNGs
 ```
 
 ## Data layout
@@ -71,7 +63,6 @@ python -m src.evaluation.main \
 - `--datasets imdb62 fanfic` — run on a subset of datasets
 - `--methods promptav prompt_cave` — run specific methods only
 - `--max-examples 250` — cap examples per dataset
-- `--resume` — skip already-completed rows in `results.jsonl`
 - `--qwen3-enable-thinking` — enable Qwen3 thinking mode
 
 Supported models: `Qwen/Qwen3-{14,32}B`, `google/gemma-3-{12,27}b-it`, `mistralai/Mistral-Small-3.2-24B-Instruct-2506`.
